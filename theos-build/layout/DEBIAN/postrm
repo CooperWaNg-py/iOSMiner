@@ -1,0 +1,6 @@
+#!/bin/sh
+# Remove app from SpringBoard cache on uninstall
+if [ "$1" = "remove" ] || [ "$1" = "" ]; then
+    uicache -u /var/jb/Applications/iOSMiner.app 2>/dev/null || true
+fi
+exit 0

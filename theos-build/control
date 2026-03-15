@@ -1,0 +1,9 @@
+Package: com.cooperwang.iosminer
+Name: iOSMiner
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Description: Bitcoin SHA-256d miner for iOS. Connects to Stratum v1 mining pools and performs proof-of-work on device CPU.
+Maintainer: Cooper Wang
+Author: Cooper Wang
+Section: Utilities
+Depends: firmware (>= 17.0)

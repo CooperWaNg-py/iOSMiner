@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+._*
+
+# Xcode
+build/
+DerivedData/
+*.xcuserdata
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Theos build artifacts
+theos-build/.theos/
+theos-build/packages/*.deb
+theos-build/obj/
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Credentials / secrets
+deploy.sh

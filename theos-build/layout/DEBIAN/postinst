@@ -1,0 +1,6 @@
+#!/bin/sh
+# Refresh SpringBoard app cache so iOSMiner icon appears
+if [ "$1" = "configure" ] || [ "$1" = "" ]; then
+    uicache -p /var/jb/Applications/iOSMiner.app 2>/dev/null || true
+fi
+exit 0
